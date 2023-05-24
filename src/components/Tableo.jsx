@@ -1,0 +1,71 @@
+import * as React from 'react';
+import Table from '@mui/material/Table';
+import TableBody from '@mui/material/TableBody';
+import TableCell from '@mui/material/TableCell';
+import TableContainer from '@mui/material/TableContainer';
+import TableHead from '@mui/material/TableHead';
+import TableRow from '@mui/material/TableRow';
+import Paper from '@mui/material/Paper';
+
+function Tableo() {
+   
+
+
+const rows = [
+   
+];
+
+    return (
+        <TableContainer component={Paper}>
+            <Table sx={{ minWidth: 650 }} aria-label="simple table">
+                <TableHead>
+                    <TableRow>
+                        <TableCell>Name</TableCell>
+                        <TableCell>Address</TableCell>
+                        <TableCell>Place</TableCell>
+                    
+                    </TableRow>
+                    <br/>
+                    <TableRow>
+                        <TableCell>Jerald</TableCell>
+                        <TableCell>Vattakudiyil</TableCell>
+                        <TableCell>muvattupuzha</TableCell>
+                    
+                    </TableRow>
+                    <br/>
+                    <TableRow>
+                        <TableCell>Jebin</TableCell>
+                        <TableCell>Vattakudiyil</TableCell>
+                        <TableCell>muvattupuzha</TableCell>
+                    
+                    </TableRow><br/>
+                    <TableRow>
+                        <TableCell>Jacob</TableCell>
+                        <TableCell>Vattakudiyil</TableCell>
+                        <TableCell>muvattupuzha</TableCell>
+                    
+                    </TableRow><br/>
+                    <TableRow>
+                        <TableCell>Pritviraj</TableCell>
+                        <TableCell>Vattakudiyil</TableCell>
+                        <TableCell>muvattupuzha</TableCell>
+                    
+                    </TableRow><br/>
+                    <TableRow>
+                        <TableCell>athil</TableCell>
+                        <TableCell>Vattakudiyil</TableCell>
+                        <TableCell>muvattupuzha</TableCell>
+                    
+                    </TableRow>
+
+                </TableHead>
+                <TableBody>
+                   
+                </TableBody>
+            </Table>
+        </TableContainer>
+    );
+}
+
+
+export default Tableo
